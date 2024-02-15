@@ -1,0 +1,5 @@
+{
+  "app_name": "",
+  "hyphenated_app_name": "{{ '-'.join(cookiecutter['app_name'].lower().split()).replace('_', '-') }}",
+  "underscored_app_name": "{{ cookiecutter.hyphenated_app_name.replace('-', '_') }}"
+}
