@@ -7,3 +7,6 @@ requires-python = ">=3.11"
 
 [project.entry-points.console_scripts]
 {{ cookiecutter.hyphenated_app_name }} = "{{ cookiecutter.underscored_app_name }}.cli:cli"
+
+[tool.black]
+line-length = 139
